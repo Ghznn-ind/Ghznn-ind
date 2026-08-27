@@ -1,26 +1,14 @@
 <div align="center">
-
-<img src="./banner (1).svg" alt="Ghozian Achmad Subagyo — Junior Web Developer" width="100%" />
-
-<br/>
-
-<a href="https://www.linkedin.com/in/ghozian-achmad-subagyo-91798538a/">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-<a href="https://www.instagram.com/ghznnas/">
-  <img src="https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
-</a>
-<a href="https://ghznn-ind.github.io/GAME_REPO_NAME/game.html">
-  <img src="https://img.shields.io/badge/🎮_Main_Game-Code_Typing_Rush-b45cff?style=for-the-badge" />
-</a>
-
+  <img src="./banner (1).svg" alt="Ghozian Achmad Subagyo — Junior Web Developer" width="100%" />
+  <br/>
 </div>
 
 <br/>
 
 ### 👋 Tentang Saya
 
-Junior Web Developer dari East Java, Indonesia — masih belajar, masih membangun, dan senang mengubah ide jadi kode. Meraih **Juara 3 FESTIKA AREK AI 2025 (Kategori Aplikasi Python)** lewat proyek *"Ngulik Si Jatim"*. Terbuka untuk kolaborasi proyek web, magang, atau sekadar diskusi ngoding 🚀
+Junior Web Developer based in East Java, Indonesia. Passionate about learning, building scalable solutions, and turning creative ideas into functional code. Always eager to explore modern web technologies and collaborate on exciting projects.
+Let's connect for web development collaborations, internships, or tech discussions! 🚀
 
 <br/>
 
@@ -45,12 +33,19 @@ Junior Web Developer dari East Java, Indonesia — masih belajar, masih membangu
 
 <br/>
 
+### 🤝 Let's Connect With Me
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=Ghznn-ind&label=Profile%20Views&color=b45cff&style=flat" />
+  <a href="https://www.linkedin.com/in/ghozian-achmad-subagyo-91798538a/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://www.instagram.com/ghznnas/">
+    <img src="https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+  </a>
 </div>
 
 <br/>
+<br/>
 
 <div align="center">
-  <sub>✨ Banner & game dibuat khusus untuk profil ini — lihat <a href="./PANDUAN-INSTALASI.md">panduan instalasi</a> untuk cara pasang di repo kamu.</sub>
+  <p>Thank you for visiting my GitHub profile! Feel free to reach out if you want to collaborate or discuss tech. Have a great day! ✨</p>
 </div>
