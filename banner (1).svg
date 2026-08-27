@@ -1,0 +1,114 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0118"/>
+      <stop offset="55%" stop-color="#12042c"/>
+      <stop offset="100%" stop-color="#1a0733"/>
+    </linearGradient>
+
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5eeaff"/>
+      <stop offset="55%" stop-color="#8b7bff"/>
+      <stop offset="100%" stop-color="#c86bff"/>
+    </linearGradient>
+
+    <linearGradient id="circuitGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22e5ff"/>
+      <stop offset="100%" stop-color="#b45cff"/>
+    </linearGradient>
+
+    <linearGradient id="scanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22e5ff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#8b7bff" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#c86bff" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="orbCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22e5ff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#22e5ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbPurple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#b45cff" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#b45cff" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M 34 0 L 0 0 0 34" fill="none" stroke="#3a2a66" stroke-width="0.6" opacity="0.22"/>
+    </pattern>
+
+    <filter id="glowSoft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="glowBig" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+
+    <clipPath id="clipAll">
+      <rect x="0" y="0" width="1200" height="300" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#clipAll)">
+    <!-- Background -->
+    <rect width="1200" height="300" fill="url(#bgGrad)"/>
+    <rect width="1200" height="300" fill="url(#grid)"/>
+
+    <!-- Ambient glow orbs -->
+    <circle cx="1040" cy="60" r="160" fill="url(#orbCyan)">
+      <animate attributeName="r" values="150;180;150" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="120" cy="280" r="140" fill="url(#orbPurple)">
+      <animate attributeName="r" values="130;160;130" dur="7s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Ghost glyph -->
+    <text x="905" y="245" font-family="'Courier New', monospace" font-weight="700" font-size="230" fill="#c86bff" opacity="0.06">&lt;/&gt;</text>
+
+    <!-- Circuit trace connecting identity to tech stack -->
+    <path id="circuitPath" d="M 66 108 C 340 108, 300 250, 470 258" fill="none" stroke="url(#circuitGrad)" stroke-width="1.4" stroke-dasharray="2 6" opacity="0.55"/>
+    <circle r="4" fill="#8be9ff" filter="url(#glowSoft)">
+      <animateMotion dur="4.5s" repeatCount="indefinite">
+        <mpath href="#circuitPath"/>
+      </animateMotion>
+    </circle>
+
+    <!-- Diagonal holographic scan sweep -->
+    <rect x="-300" y="0" width="260" height="300" fill="url(#scanGrad)" transform="skewX(-20)">
+      <animateTransform attributeName="transform" type="translate" from="-100 0" to="1500 0" dur="7s" repeatCount="indefinite" additive="sum"/>
+    </rect>
+
+    <!-- Eyebrow -->
+    <text x="60" y="66" font-family="'Courier New', monospace" font-size="15" fill="#5eeaff" opacity="0.9">&gt; whoami<tspan opacity="1"> _</tspan></text>
+    <animate xlink:href="#cursorBlink" attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+
+    <!-- Name -->
+    <text x="58" y="118" font-family="'Segoe UI', 'Trebuchet MS', Arial, sans-serif" font-size="42" font-weight="800" letter-spacing="0.5" fill="url(#textGrad)" filter="url(#glowSoft)">GHOZIAN ACHMAD SUBAGYO</text>
+
+    <!-- Role -->
+    <text x="60" y="150" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="4" fill="#8be9ff" opacity="0.95">JUNIOR WEB DEVELOPER</text>
+
+    <!-- Tagline -->
+    <text x="60" y="180" font-family="'Courier New', monospace" font-size="14.5" fill="#b6acd6" font-style="italic">Belajar dari nol, membangun dari baris kode pertama.<tspan fill="#8be9ff" font-style="normal">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/> _</tspan></text>
+
+    <!-- Stat badges -->
+    <g font-family="'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="600">
+      <rect x="60" y="200" width="140" height="27" rx="13.5" fill="#ffffff" fill-opacity="0.04" stroke="#22e5ff" stroke-opacity="0.45"/>
+      <text x="76" y="217.5" fill="#d9d4f5">📍 East Java, ID</text>
+    </g>
+
+    <!-- Tech stack label -->
+    <text x="60" y="245" font-family="'Segoe UI', Arial, sans-serif" font-size="11.5" font-weight="700" letter-spacing="3" fill="#8be9ff" opacity="0.75">TECH STACK</text>
+
+    <!-- Tech stack icons (skillicons.dev) -->
+    <image x="58" y="252" width="470" height="42" href="https://skillicons.dev/icons?i=html,css,js,php,react,bootstrap,nodejs,laravel,python&amp;theme=dark&amp;perline=9"/>
+
+    <!-- Outer border glow -->
+    <rect x="1" y="1" width="1198" height="298" rx="17" fill="none" stroke="url(#textGrad)" stroke-opacity="0.35" stroke-width="1.5"/>
+  </g>
+</svg>
