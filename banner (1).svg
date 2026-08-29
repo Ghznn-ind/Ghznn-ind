@@ -99,7 +99,7 @@
     <!-- Stat badges -->
     <g font-family="'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="600">
       <rect x="60" y="200" width="140" height="27" rx="13.5" fill="#ffffff" fill-opacity="0.04" stroke="#22e5ff" stroke-opacity="0.45"/>
-      <text x="76" y="217.5" fill="#d9d4f5">📍 East Java, Indonesia</text>
+      <text x="76" y="217.5" fill="#d9d4f5">📍 East Java, ID</text>
     </g>
 
     <!-- Outer border glow -->
