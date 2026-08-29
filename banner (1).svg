@@ -93,7 +93,7 @@
     <text x="60" y="150" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="4" fill="#8be9ff" opacity="0.95">JUNIOR WEB DEVELOPER</text>
 
     <!-- Tagline -->
-    <text x="60" y="180" font-family="'Courier New', monospace" font-size="14.5" fill="#b6acd6" font-style="italic">Belajar dari nol, membangun dari baris kode pertama.<tspan fill="#8be9ff" font-style="normal">
+    <text x="60" y="180" font-family="'Courier New', monospace" font-size="14.5" fill="#b6acd6" font-style="italic">Learn from zero, building from the first line code.<tspan fill="#8be9ff" font-style="normal">
       <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/> _</tspan></text>
 
     <!-- Stat badges -->
