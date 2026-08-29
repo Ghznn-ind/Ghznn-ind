@@ -5,7 +5,7 @@
 
 <br/>
 
-### 👋 Tentang Saya
+### 👋 About Me
 
 Junior Web Developer based in East Java, Indonesia. Passionate about learning, building scalable solutions, and turning creative ideas into functional code. Always eager to explore modern web technologies and collaborate on exciting projects.
 Let's connect for web development collaborations, internships, or tech discussions! 🚀
